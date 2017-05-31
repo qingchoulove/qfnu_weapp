@@ -1,0 +1,61 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="main">
+    <block>
+      <navigator class="main-icon" url="url">
+        <image class="main-icon-item" src="/images/core/kb.png"></image>
+        <text class="main-icon-name">课表</text>
+      </navigator>
+    </block>
+    <block>
+      <navigator class="main-icon" url="url">
+        <image class="main-icon-item" src="/images/core/cj.png"></image>
+        <text class="main-icon-name">成绩</text>
+      </navigator>
+    </block>
+    <block>
+      <navigator class="main-icon" url="url">
+        <image class="main-icon-item" src="/images/core/jy.png"></image>
+        <text class="main-icon-name">借阅</text>
+      </navigator>
+    </block>
+    <block>
+      <navigator class="main-icon" url="url">
+        <image class="main-icon-item" src="/images/core/kjs.png"></image>
+        <text class="main-icon-name">自习室</text>
+      </navigator>
+    </block>
+    <block>
+      <navigator class="main-icon" url="url">
+        <image class="main-icon-item" src="/images/core/ykt.png"></image>
+        <text class="main-icon-name">学生卡</text>
+      </navigator>
+    </block>
+  </view>
+  <view class="main-card">
+    <view class="main-card-item" id="kb">
+      <navigator url="/pages/core/kb/kb">
+      <view class="card-item-hd">
+        <image class="card-item-icon" src="/images/core/kb.png"></image>
+        <text class="card-item-name">今日课表</text>
+      </view>
+      <view class="card-item-bd">
+        <view class="kb-item">
+          <view class="kb-item-left">
+            <text class="kb-item-what">机械制图</text>
+            <text class="kb-item-when">7~8节()</text>
+          </view>
+          <text class="kb-item-where">F101</text>
+        </view>
+        <view class="kb-item">
+          <view class="kb-item-left">
+            <text class="kb-item-what">机械制图</text>
+            <text class="kb-item-when">7~8节()</text>
+          </view>
+          <text class="kb-item-where">F101</text>
+        </view>
+      </view>
+      </navigator>
+    </view>
+  </view>
+</view>

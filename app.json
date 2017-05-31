@@ -1,0 +1,34 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "掌上曲园",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#7f848a",
+    "selectedColor": "#7acfa6",
+    "backgroundColor": "#f7f6fb",
+    "borderStyle": "white",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/index/index.png",
+      "selectedIconPath": "images/index/index@active.png"
+    }, {
+      "pagePath": "pages/logs/logs",
+      "text": "资讯",
+      "iconPath": "images/index/news.png",
+      "selectedIconPath": "images/index/news@active.png"
+    }, {
+      "pagePath": "pages/logs/logs",
+      "text": "更多",
+      "iconPath": "images/index/more.png",
+      "selectedIconPath": "images/index/more@active.png"
+    }]
+  }
+}
